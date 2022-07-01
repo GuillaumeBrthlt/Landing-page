@@ -1410,7 +1410,6 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    align-items: center;
   }
 
   .col-lg-7 {
