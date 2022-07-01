@@ -11321,7 +11321,7 @@ textarea.form-control-lg {
 }
 
 .jumbotron{
-   background: url("../assets/img/bg-hero.jpg") center center;
+   background: url("../assets/img/bg-hero.jpg") no-repeat center center;
    background-size: 100% auto;
    height: 600px;
 }
