@@ -1,3 +1,23 @@
+/*!Custom CSS */
+
+#logo
+{
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited 
+{
+    background-color: #f69146 !important;
+    border: none !important;
+}
+
+
+
+/*!Template */
+
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Landing Page v6.0.5 (https://startbootstrap.com/theme/landing-page)
