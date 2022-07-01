@@ -30,53 +30,29 @@
                 <a class="btn btn-primary" href="#signup">S'inscrire</a>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <div class="text-center text-white">
-                            <!-- Page heading-->
-                            <h1 class="mb-5">Generate more leads with a professional landing page!</h1>
-                            <!-- Signup form-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- * * SB Forms Contact Form * *-->
-                            <!-- * * * * * * * * * * * * * * *-->
-                            <!-- This form is pre-integrated with SB Forms.-->
-                            <!-- To make this form functional, sign up at-->
-                            <!-- https://startbootstrap.com/solution/contact-forms-->
-                            <!-- to get an API token!-->
-                            <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                <!-- Email address input-->
-                                <div class="row">
-                                    <div class="col">
-                                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Adresse email" data-sb-validations="required,email" />
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">L'adresse email est requise.</div>
-                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">L'adresse email n'est pas valide.</div>
-                                    </div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                                </div>
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        <p>To activate this form, sign up at</p>
-                                        <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            </form>
-                        </div>
+      <header>
+            <div class="jumbotron jumbotron-fluid pt-4 pb-5 d-flex align-items-center">
+              <div class="hero container-fluid">
+                <img class="d-block mx-auto mb-2 mt-5" src="assets/img/logo.png" alt="" width="150" height="auto">
+                <div class="text-center text-white">
+                  <h1 class="mg-5 mt-2">Un dev à la mer</h1>
+                  <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">La communauté d'entre-aide de développeurs n°1 en France! Application 100% francophone déjà utilisée par plus de 3500 développeurs Front/Back-End.</p>
+                    <div class="row mb-5 mt-5">
+                      <div class="col">
+                        <input class="form-control form-control-lg" id="emailAddress" type="email" placeholder="Entrer votre adresse Email" data-sb-validations="required,email" />
+                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                          <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                      </div>
+                      <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">S'inscrire</button></div>
+                      </div>
+                    
                     </div>
+                  </div>
+                </div>
                 </div>
             </div>
+          </div>
         </header>
         <!-- Icons Grid-->
         <section class="features-icons bg-light text-center">

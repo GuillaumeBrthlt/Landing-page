@@ -11320,24 +11320,12 @@ textarea.form-control-lg {
   font-size: 4.5rem;
 }
 
-header.masthead {
-  position: relative;
-  background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.jumbotron{
+   background: url("../assets/img/bg-hero.jpg") center center;
+   background-size: 100% auto;
+   height: 600px;
 }
-header.masthead:before {
-  content: "";
-  position: absolute;
-  background-color: #1c375e;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-}
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
 }
