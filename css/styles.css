@@ -1390,6 +1390,7 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    align-items: center;
   }
 
   .col-lg-7 {
@@ -11333,8 +11334,9 @@ header.masthead h1, header.masthead .h1 {
 
 .showcase .showcase-text {
   padding: 3rem;
+  text-align: center;
 }
-.showcase .showcase-img {
+.showcase .rounded-circle {
   min-height: 30rem;
   background-size: cover;
 }
@@ -11378,4 +11380,8 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+section h2 {
+  text-align: center;
 }
