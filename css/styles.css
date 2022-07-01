@@ -11393,3 +11393,15 @@ section h2 {
   text-align: center;
   font-family: 'Splash', 'cursive';
 }
+
+section h3 {
+  font-family: 'Splash', 'cursive';
+}
+
+.navbar-brand {
+  font-family: 'Splash', 'cursive';
+}
+
+header h1 {
+  font-family: 'Splash', 'cursive';
+}
