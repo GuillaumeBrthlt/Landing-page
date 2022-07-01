@@ -11356,7 +11356,7 @@ header.masthead h1, header.masthead .h1 {
   padding: 3rem;
   text-align: center;
 }
-.showcase .rounded-circle {
+.showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
 }
